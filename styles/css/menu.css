@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F2F2F2;
+}
+
+header{
+  margin-top: 0px;
+  width: 100%;
+  height: 45px;
+  position: relative;
+  background-color: #FF5D00;
+  text-decoration: none;
+}
+
+nav{
+  top:-20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  max-width: 1000px;
+  width: 90%;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav > ul{
+  display: table;
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+nav > ul li{
+  display: table-cell;
+}
+
+nav > ul > li > ul{
+  display: none;
+}
+
+nav > ul li a{
+  color: #fff;
+  background-color: #FF5D00;
+  display: block;
+  line-height: 15px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-size: 125%;
+  font-family: 'Poiret One', cursive;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+nav > ul > li > ul > li a:hover{
+  text-decoration: none;
+  background: white;
+}
+
+nav > ul > li > a span{
+  background: #fff;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: -40px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav > ul > li > a span .icon{
+  display: block;
+  line-height: 48px;
+  font-size: 110%;
+}
+
+nav > ul > li > a:hover > span{
+  top: 0;
+}
+
+.cerrar a{
+  position: relative;
+  font-size: 25px;
+  color: white;
+  left: 1320px;
+  top: 9px;
+  text-decoration: none;
+}

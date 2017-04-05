@@ -1,0 +1,67 @@
+div#tabla1 {
+    position: absolute;
+    width: 45%;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 220px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+div#tabla2 {
+    position: absolute;
+    width: 45%;
+    height: 300px;
+    margin-left: 55%;
+    margin-top: 220px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#confirmar{
+    position: absolute;
+}
+
+h1 {
+    font-size: 60px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a#Confirmar {
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 81%;
+    font-size: 80px;
+    color: #4C4C4C;
+    text-decoration: none;
+}
+
+a#Confirmar:hover {
+    webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.7);
+}
+
+#hr1{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 10%;
+    width: 80%;
+    border-width: 3px;
+    border-color: #FF5D00;
+}
+
+#hr2{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 73%;
+    width: 20%;
+    border-width: 3px;
+    border-color: #FF5D00;
+}

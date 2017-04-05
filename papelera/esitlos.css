@@ -1,0 +1,84 @@
+body{
+  overflow-y:hidden;
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #5D5D5D;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+form{
+  background: #3333333;
+  width: 800px;
+  margin: 200px auto;
+  margin-left: 380px;
+  float: left;
+}
+
+form h1{
+  text-align: center;
+  color:#fff;
+  font-weight: normal;
+  font-size: 40pt;
+  margin: 15px 0px;
+  font-family: 'Righteous', cursive;
+}
+
+form input{
+  border: 0px solid #ffffff;
+  border-radius: 3px;
+  width: 280px;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 10px 30px;
+  color: #6d6d6d;
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
+form input:focus{
+  background-color: rgba(128, 102, 102, 0.34);;
+  color:#fff;
+}
+
+form button{
+  width: 150px;
+  margin: 20px 0px 30px 30px;
+  margin-left: 285px;
+  height: 45px;
+  background: #323232;
+  border: 1px solid #232323;
+  color: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+}
+
+form button:hover{
+  background: #3a3a3a;
+  font-family: 'Abel', sans-serif;
+}
+
+form button:active{
+  background: #6B6B6B;
+  font-family: 'Abel', sans-serif;
+}
+
+img{
+  width: 250px;
+  margin: 290px auto;
+  margin-left: 30px;
+}
+
+HR{
+  border-color: #FF6400;
+  border-width: 1px;
+  width: 70%;
+}

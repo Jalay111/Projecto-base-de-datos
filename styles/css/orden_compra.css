@@ -1,0 +1,71 @@
+h1{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 200px;
+  font-size: 60px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div input{
+  border: 1px solid #CFCFCF;
+  border-radius: 3px;
+  width: 200px;
+  height: 38px;
+  padding: 0px 10px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 230px;
+  color: #6d6d6d;
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
+
+.icon-magnifying-glass{
+    margin-top: 155px;
+    font-size: 20px;
+    margin-left: 440px;
+    position: absolute;
+    content: "\e9d9";
+}
+
+.icon-magnifying-glass:hover{
+    webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.5);
+}
+
+#resultadonegativo{
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  font-size: 20px;
+}
+
+#icon_agregar{
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 1050px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#icon_agregar:hover{
+  webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+  transform: scale(1.2);
+}
+
+.container{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 10%;
+  width: 80%;
+}

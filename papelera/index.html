@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang: es>
+  <head>
+    <meta charset="utf-8">
+    <title>Registrar Cliente</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="esitlos.css" media="screen" />
+  </head>
+  <body>
+    <form name="Registrar" action="#" method="POST" onsubmit=" return validarForm(this);">
+      <HR>
+      <h1>Registrar Cliente</h1>
+      <input id="nombre" type="text" name="nombre" id="nombre" max-length="20" placeholder="Ingrese Nombre"/>
+      <input id="apellido" type="text" name="apellido" max-length="20" placeholder="Ingrese Apellido"/>
+      <input id="direccion" type="text" name="direccion" id="direccion" max-length="20" placeholder="Ingrese Direccion"/>
+      <input id="telefono" type="number" name="telefono" max-length="20" placeholder="ingrese Telefono"/>
+      <input id="cedula" type="number" name="cedula" id="cedula" max-length="20" placeholder="ingrese Cedula"/>
+      <input id="correo" type="email" name="correo" max-length="20" placeholder="ingrese Correo"/>
+      <button type="submit">Registrar</button>
+    </form>
+    <script type="text/javascript" src="logica.js"></script>
+  </body>
+</html>
